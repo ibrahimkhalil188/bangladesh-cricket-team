@@ -1,0 +1,14 @@
+.parent{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 50px;
+    row-gap: 40px;
+}
+.selected-player{
+    position: sticky;
+    top:0px;
+}

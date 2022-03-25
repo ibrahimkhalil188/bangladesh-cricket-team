@@ -1,0 +1,28 @@
+.player{
+    border: 1px solid green;
+    width: 310px;
+    height: 380px;
+    position: relative;
+}
+.player img{
+    width: 100%;
+    
+}
+.player-info{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.details-btn{
+    padding: 5px 10px;
+    background: rgba(76, 175, 80, 0.9);
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    position:absolute ;
+    bottom: 5px;
+}
