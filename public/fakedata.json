@@ -6,7 +6,7 @@
         "age": 32,
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/316500/316583.png",
         "match": 123,
-        "odi-run": 4788
+        "odiRun": 4788
     },
     {
         "name": "Afif Hossain",
@@ -15,7 +15,7 @@
         "age": 22,
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/323100/323159.png",
         "match": 12,
-        "odi-run": 346
+        "odiRun": 346
     },
     {
         "name": "Litton Das",
@@ -24,7 +24,7 @@
         "age": "27",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/319700/319727.png",
         "match": "49",
-        "odi-run": "1649"
+        "odiRun": 1649
     },
     {
         "name": "Mohammad Mahmudullah",
@@ -33,7 +33,7 @@
         "age": "36",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/316500/316571.png",
         "match": "94",
-        "odi-run": "2914"
+        "odiRun": 2914
     },
     {
         "name": "Mushfiqur Rahim",
@@ -42,7 +42,7 @@
         "age": "34",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/316500/316578.png",
         "match": "144",
-        "odi-run": "4873"
+        "odiRun": 4873
     },
     {
         "name": "Mehidy Hasan Miraz",
@@ -51,7 +51,7 @@
         "age": "24",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/319700/319728.png",
         "match": "57",
-        "odi-run": "1012"
+        "odiRun": 1012
     },
     {
         "name": "Taskin Ahmed",
@@ -60,7 +60,7 @@
         "age": "26",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/316700/316703.png",
         "match": "18",
-        "odi-run": "1305"
+        "odiRun": 1305
     },
     {
         "name": "Shakib Al Hasan",
@@ -69,7 +69,7 @@
         "age": "35",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/316500/316581.png",
         "match": "109",
-        "odi-run": "4029"
+        "odiRun": 4029
     },
     {
         "name": "Mustafizur Rahman",
@@ -78,7 +78,7 @@
         "age": "26",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/319700/319734.png",
         "match": "23",
-        "odi-run": "1102"
+        "odiRun": 1102
     },
     {
         "name": "Shoriful Islam",
@@ -87,7 +87,7 @@
         "age": "20",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/323100/323175.png",
         "match": "6",
-        "odi-run": "277"
+        "odiRun": 277
     },
     {
         "name": "Aminul Islam",
@@ -96,7 +96,7 @@
         "age": "22",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/319700/319720.png",
         "match": "7",
-        "odi-run": "35"
+        "odiRun": 35
     },
     {
         "name": "Najmul Hossain Shanto",
@@ -105,6 +105,6 @@
         "age": "24",
         "image": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/323100/323155.png",
         "match": "23",
-        "odi-run": "712"
+        "odiRun": 712
     }
 ]

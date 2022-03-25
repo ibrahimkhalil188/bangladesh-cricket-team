@@ -3,7 +3,7 @@ import './Player.css'
 
 const Player = ({ player, clickForDetails }) => {
     const { name, image, roll, match } = player
-
+    console.log(player.odiRun)
     return (
         <div className='player'>
 

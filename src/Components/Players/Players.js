@@ -47,8 +47,18 @@ const Players = () => {
                     player.map(singlePlayer =>
 
                         <div className='singlePlayer' >
-                            <img src={singlePlayer.image} alt="" />
-                            <h3>{singlePlayer.name}</h3><span onClick={() => removePlayer(singlePlayer)} className='cross'>X</span>
+                            <div>
+                                <img src={singlePlayer.image} alt="" />
+                                <h3 style={{ marginLeft: "15px" }}>{singlePlayer.name}</h3>
+                                <span onClick={() => removePlayer(singlePlayer)} className='cross'>X</span>
+                            </div>
+                            <div>
+                                <p>Odi Run: {singlePlayer.odiRun}</p>
+                                <p>Odi Match: {singlePlayer.match}</p>
+                                <p>Avarage: {(singlePlayer.odiRun / singlePlayer.match).toFixed(2)}</p>
+
+                            </div>
+
                         </div>)
                 }
             </div>
