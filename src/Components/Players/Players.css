@@ -12,3 +12,25 @@
     position: sticky;
     top:0px;
 }
+.singlePlayer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: solid gray;
+    margin: 5px;
+    position: relative;
+}
+.selected-player img{
+    width: 120px;
+    height: 100px;
+}
+.cross{
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 700;
+    position:absolute ;
+    right: 0;
+    top: 0;
+    color: red;
+    cursor: pointer;
+}

@@ -13,9 +13,14 @@ const Players = () => {
 
     const clickForDetails = (selectedPlayer) => {
         let newPlayers = [...player, selectedPlayer]
-        /* const exsist = players.find(player => player.id === selectedPlayer.id) */
+        const exist = player.find(player => player.id === selectedPlayer.id)
+        if (!exist) {
+            setPlayer(newPlayers)
+        }
+    }
 
-        setPlayer(newPlayers)
+    const removePlayer = (removedPlayer) => {
+        console.log(removedPlayer)
     }
 
     return (
@@ -32,9 +37,14 @@ const Players = () => {
                 }
             </div>
             <div className='selected-player'>
-                <h1>Your Selected Player</h1>
+                <h2>Your Selected Player</h2>
                 {
-                    player.map(singlePlayer => <h1>{singlePlayer.name}</h1>)
+                    player.map(singlePlayer =>
+
+                        <div className='singlePlayer' >
+                            <img src={singlePlayer.image} alt="" />
+                            <h3>{singlePlayer.name}</h3><span onClick={() => removePlayer(singlePlayer)} className='cross'>X</span>
+                        </div>)
                 }
             </div>
         </div>
