@@ -1,11 +1,9 @@
 import React from 'react';
 import './Player.css'
 
-const Player = ({ player }) => {
+const Player = ({ player, clickForDetails }) => {
     const { name, image, roll, match } = player
-    const clickForDetails = () => {
-        console.log(name)
-    }
+
     return (
         <div className='player'>
 
@@ -16,7 +14,7 @@ const Player = ({ player }) => {
                 <h4>Played Match: {match}</h4>
             </div>
             <div className='btn'>
-                <button onClick={clickForDetails} className='details-btn'>Show-Details</button>
+                <button onClick={() => clickForDetails(player)} className='details-btn'>Show-Details</button>
             </div>
         </div>
     );
