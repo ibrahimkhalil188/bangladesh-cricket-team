@@ -20,7 +20,12 @@ const Players = () => {
     }
 
     const removePlayer = (removedPlayer) => {
-        console.log(removedPlayer)
+        let afterRemove = []
+        const rest = player.filter(player => player.id !== removedPlayer.id)
+        if (rest) {
+            afterRemove = [...rest]
+        }
+        setPlayer(afterRemove)
     }
 
     return (
